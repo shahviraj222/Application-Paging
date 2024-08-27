@@ -4,7 +4,7 @@ import axios from 'axios';
 function App() {
   const [users, setUsers] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [usersPerPage] = useState(20);
+  const [usersPerPage] = useState(9);
   const [editUserId, setEditUserId] = useState(null);
   const [editFormData, setEditFormData] = useState({
     first_name: '',
